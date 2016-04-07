@@ -132,9 +132,6 @@ public class UserGraph {
 		//fill in above arrays depending on whether its more optimal to include each CC or not
 		for (int x = 0; x < numCC; x++) {
 			for (int m = 0; m <= n; m++) {
-				/*
-				System.out.println("x: " + x);
-				System.out.println("m: " + m);*/
 				
 				//base cases
 				if (x == 0 || m == 0) {
